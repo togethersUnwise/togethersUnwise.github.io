@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+  font-family: font-family: 'Blinker', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0px 0px;
+  padding: 5px 10px;
+  border: 2px solid white;
+}
+
+h1 {
+  font-family: 'Oxanium', cursive;
+  text-align: center;
+  font-size: 36px;
+  color: orange;
+  margin: 0 auto;
+  width: 200px;
+}
+
+h1:hover {
+  background-color: grey;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 0px grey;
+}
+
+a {
+  color: #11DD00;
+}
+
+a:hover {
+  color: pink;
+}
+
+p,li,a {
+  font-size: 18px;
+}
+
+img[src] {
+  align: center;
+}
