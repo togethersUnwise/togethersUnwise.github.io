@@ -14,14 +14,15 @@ myImage.onclick = function() {
 let myButton = qs('button')
 let myHeading = qs('h1')
 
-if (! localStorage.getItem('name')) {
-	setUserName();
-} else {
+myButton.onclick = function() {
+	if (! localStorage.getItem('name')) {
+		setUserName();
+	}
 	let storedName = localStorage.getItem('name');
 	myHeading.textContent = 'Haikyuu is cool, ' + myName;
 }
+
 function setUserName() {
 	let myName = prompt('There is Virus!. Enter name to proceeds');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Haikyuu is cool, ' + myName;
 }
